@@ -6,6 +6,7 @@ export const Title = styled.span`
   font-size: 2rem;
   font-weight: 500;
   margin: 2rem 2rem 1rem;
+  color: #000000;
 `;
 
 export const Copy = styled.p`

@@ -3,6 +3,7 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled.span`
   display: block;
+  margin: auto;
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
@@ -14,9 +15,9 @@ export const Text = styled.span`
   font-size: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '3.2rem';
+        return '4.2rem';
       default:
-        return '2rem';
+        return '5rem';
     }
   }};
   line-height: 1.2;
@@ -26,6 +27,16 @@ export const Text = styled.span`
       switch (size) {
         case 'large':
           return '2.6rem';
+        default:
+          return '4rem';
+      }
+    }};
+  `};
+  ${MEDIA.PHONE`
+    font-size: ${({ size }) => () => {
+      switch (size) {
+        case 'large':
+          return '2rem';
         default:
           return '2rem';
       }

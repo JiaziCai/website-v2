@@ -68,7 +68,16 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
+    ${'' /* color: ${accent}; */}
+  }
+
+  a:-webkit-any-link {
+    color: #000000 !important;
+    text-decoration: none !important;
+  }
+
+  a:hover {
+    color: #5393fe !important;
   }
 
   pre {

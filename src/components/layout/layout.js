@@ -4,13 +4,26 @@ import { StaticQuery, graphql } from 'gatsby';
 import Head from 'components/head';
 import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
+import rootStyle from 'root.module.css';
 
 const Layout = ({ data, children }) => (
   <div>
-    <GlobalStyle />
-    <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
-    {children}
+    <div className={rootStyle.outerDiv}>
+      <div className={rootStyle.leftBar}>
+        <ul>
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
+        </ul>
+      </div>
+      <div className={rootStyle.rightBar}>b</div>
+    </div>
+    <div className={rootStyle.rootDiv}>
+      <GlobalStyle />
+      <Head />
+      <Header title={data.site.siteMetadata.siteTitle} />
+      {children}
+    </div>
   </div>
 );
 

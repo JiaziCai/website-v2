@@ -1,0 +1,44 @@
+.rootDiv{
+    max-width: 1100px;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin: 0 auto;
+}
+
+.outerDiv {
+    max-width: 1300px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 0 auto;
+}
+
+.leftBar {
+    position: fixed;
+    bottom: 0;
+    background: red;
+    height: 100px;
+    width: 30px;
+}
+
+.rightBar {
+    position: fixed;
+    bottom: 0;
+    right: calc(50vw - 650px);
+    background: red;
+    height: 100px;
+    width: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .rootDiv {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .rootDiv {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+  }

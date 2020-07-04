@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import posed from 'react-pose';
-import { Container } from './header.css';
+import { Container, Logo } from './header.css';
 import Title from 'components/title';
 import Nav from 'components/header/nav';
 
@@ -26,7 +26,9 @@ const Header = ({ title }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
-        <Title as="h1">{title}</Title>
+        <Logo>
+          <Title as="h1">{title}</Title>
+        </Logo>
       </Link>
 
       <Nav />
