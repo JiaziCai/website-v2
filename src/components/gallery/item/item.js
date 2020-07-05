@@ -9,14 +9,15 @@ const Item = ({ title, copy, image }) => (
   <Link to="/about">
     <div className={itemStyle.root}>
       <div className={itemStyle.ProjectCardContent}>
-        <h6>Web Design</h6>
-        <h3>Portfolio Site</h3>
+        <h6>Spotify Data Viz</h6>
+        <h3>#UI/UX</h3>
         <div className="css-1206gns eirj6vi4">
           <div>
             <p className={itemStyle.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod
-              tempor.
+              Get user profile and playlist, recommend songs based on user
+              preference
             </p>
+            <p className={itemStyle.tech}>React.js Node.js Chart.js Sass</p>
           </div>
         </div>
         <div className={itemStyle.ProjectCardAction}>
@@ -24,13 +25,12 @@ const Item = ({ title, copy, image }) => (
         </div>
       </div>
       <div className={itemStyle.imageContainer}>
-        <figure>
-          <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
-          <figcaption>
-            <Title>{title}</Title>
-            <Copy>{copy}</Copy>
-          </figcaption>
-        </figure>
+        <img
+          src="https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg"
+          height="316px"
+          width="400px"
+          alt="abc"
+        />
       </div>
     </div>
   </Link>

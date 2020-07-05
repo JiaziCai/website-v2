@@ -1,26 +1,21 @@
 .root {
     display: grid;
     grid-template-columns: 4fr 7fr;
-    box-shadow: 0px 9px 24px rgba(0,0,0,0.06);
     margin-bottom: 4em;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
     -webkit-text-decoration: none;
     text-decoration: none;
     color: currentColor;
-}
-
-@media screen and (max-width: 768px){
-.root {
-    grid-template-columns: 1fr;
-}
+    box-shadow: 0px 9px 24px rgba(0,0,0,0.06);
 }
 
 .root:hover{
-    box-shadow: 0px 9px 24px rgba(0,0,0,0.1);
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
     cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 9px 24px rgba(0,0,0,0.1);
 }
 
 .root:hover .ProjectCardAction {
@@ -31,7 +26,11 @@
 
 .root:hover .imageContainer {
     background: #c7e2ff;
-    opacity: 0.8;
+    opacity: 1;
+}
+
+.root:hover .ProjectCardContent {
+    opacity: 1;
 }
 
 .root:hover .ProjectCardAction span {
@@ -44,6 +43,9 @@
     transition: transform 150ms ease-in-out;
 }
 
+.ProjectCardAction {
+    color: #A9AAAB;
+}
 .ProjectCardAction span {
     margin-left: 1em;
     -webkit-transform: translateX(-10px);
@@ -56,23 +58,41 @@
 }
 .ProjectCardContent {
     background: white;
-    padding: 4em 3em 2.25em 3em;
+    padding: 3.5em 3em 2.25em 3em;
     position: relative;
+    z-index: 2;
+    opacity: 0.8;
 }
 
 .root>div>h6 {
     font-weight: 600;
-    color: #A9AAAB;
+    color: #5393fe;
+    font-size: 2.25rem;
 }
 
 .root>div>h3 {
     margin-bottom: 0.5em;
     margin-top: 0.5em;
-    color: #000000;
+    color: #A9AAAB;
 }
 
 .description {
+    width: 130%;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    position: relative;
+    z-index: 2;
+    background-color: #A9AAAB;
     color: #000000;
+    font-size: 18px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    padding: 25px;
+    border-radius: 3px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tech {
+    color: #A9AAAB;
 }
 
 .ProjectCardAction:hover {
@@ -97,6 +117,21 @@
     align-items: flex-end;
     overflow: hidden;
     position: relative;
+    padding-top: 3.5rem;
     padding-left: 2em;
     padding-right: 2em;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        grid-template-columns: 1fr;
+    }
+
+    .description{
+        width: 100%;
+    }
+    .ProjectCardContent {
+        padding: 0.5em 3em 2em 0em;
+    }
 }

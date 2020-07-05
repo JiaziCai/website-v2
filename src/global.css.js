@@ -67,12 +67,8 @@ export default createGlobalStyle`
     border-spacing: 0;
   }
 
-  a {
-    ${'' /* color: ${accent}; */}
-  }
 
   a:-webkit-any-link {
-    color: #000000 !important;
     text-decoration: none !important;
   }
 

@@ -15,7 +15,7 @@ export const Text = styled.span`
   font-size: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '4.2rem';
+        return '3.2rem';
       default:
         return '5rem';
     }

@@ -25,6 +25,17 @@ export const Logo = styled.header`
   border-radius: 50%;
   display: flex;
 
+  animation: 1s ease-out 0s 1 slideInFromTop;
+
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
   &:hover {
     background: none;
   }
