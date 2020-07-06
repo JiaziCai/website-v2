@@ -7,15 +7,11 @@
     -webkit-text-decoration: none;
     text-decoration: none;
     color: currentColor;
-    box-shadow: 0px 9px 24px rgba(0,0,0,0.06);
 }
 
 .root:hover{
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
-    cursor: pointer;
-    transform: translateY(-5px);
-    box-shadow: 0px 9px 24px rgba(0,0,0,0.1);
 }
 
 .root:hover .ProjectCardAction {
@@ -24,9 +20,16 @@
     transition: all 150ms ease-in-out;
 }
 
-.root:hover .imageContainer {
-    background: #c7e2ff;
-    opacity: 1;
+.imageContainer:hover {
+    cursor: pointer;
+}
+
+.imageContainer:hover img {
+    opacity: 0.15;
+}
+
+.imageContainer:hover .details {
+    opacity: 0.2;
 }
 
 .root:hover .ProjectCardContent {
@@ -46,6 +49,11 @@
 .ProjectCardAction {
     color: #A9AAAB;
 }
+
+.ProjectCardAction:hover {
+    cursor: pointer;
+}
+
 .ProjectCardAction span {
     margin-left: 1em;
     -webkit-transform: translateX(-10px);
@@ -58,7 +66,7 @@
 }
 .ProjectCardContent {
     background: white;
-    padding: 3.5em 3em 2.25em 3em;
+    padding-top: 3.5rem;
     position: relative;
     z-index: 2;
     opacity: 0.8;
@@ -102,7 +110,6 @@
 }
 
 .imageContainer {
-    background: #F2F2F2;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -117,10 +124,52 @@
     align-items: flex-end;
     overflow: hidden;
     position: relative;
-    padding-top: 3.5rem;
-    padding-left: 2em;
-    padding-right: 2em;
-    opacity: 0.5;
+    opacity: 0.9;
+}
+
+.imageContainer:hover .detailLink{
+    opacity: 1;
+}
+
+.detailLink:hover {
+    background-color:#f9f9f9;
+}
+
+.social {
+    margin-right: 2rem;
+}
+
+.social:hover svg{
+    fill: #5393fe;
+    transform: translateY(-5px);
+}
+
+.details {
+    border: 2px solid #5393fe;
+    padding: 1.5rem 2rem;
+    border-radius: 3px;
+    color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #5393fe;
+    opacity: 0;
+}
+
+.detailLink {
+    border: 2px solid #5393fe;
+    padding: 1.5rem 2rem;
+    border-radius: 3px;
+    color: black;
+    position: absolute;
+    top: 45%;
+    background-color: white;
+    opacity: 0;
+}
+
+.detailLink>span {
+    color: #5393fe;
+
 }
 
 @media screen and (max-width: 768px) {

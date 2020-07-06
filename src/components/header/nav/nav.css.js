@@ -15,4 +15,12 @@ export const Container = styled.nav`
       }
     }
   }
+
+  @media screen and (max-width: 450px) {
+    ul {
+      li {
+        font-size: 1rem;
+      }
+    }
+  }
 `;

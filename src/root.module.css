@@ -89,6 +89,7 @@
     writing-mode: vertical-rl;
     margin: 20px auto;
     padding: 10px;
+    display: flex;
 }
 
 .email>span {

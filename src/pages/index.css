@@ -1,0 +1,134 @@
+.list {
+    display: inline;
+    margin: 1em;
+    text-align: center;
+}
+
+.cardButtonActive {
+    background: #5393fe;
+    color:#000000;
+  }
+
+button {
+    border: 1.5px solid #5393fe;
+    padding: 1.5rem 2rem;
+    border-radius: 3px;
+    color: #5393fe;
+    display: inline;
+    background: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+button:hover {
+    background: #5393fe;
+    cursor: pointer;
+    color: #000000;
+}
+
+.email {
+    border: 2px solid #5393fe;
+    padding: 1.5rem 2rem;
+    border-radius: 3px;
+    color: #5393fe;
+}
+
+.email:hover {
+    background:#f9f9f9;
+}
+
+.email>span {
+    color: #5393fe;
+}
+
+
+.headTitle {
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+.headLine {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 30vw;
+    background-color:#A9AAAB;
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 32px;
+    margin: 10px 0px 40px;
+}
+
+.subLine {
+    margin-left: 5.5em;
+    margin-top: -0.99em;
+}
+
+.subNumber {
+    color: #5393fe;
+    font-size: 3rem;
+}
+
+.subNumberNav {
+    color: #5393fe;
+    font-size: 1.5rem;
+}
+
+.textArea {
+    margin: 4rem;
+    width: 60%;
+    max-width: 550px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+.techList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+}
+
+.techList>li {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.techList>li>span{
+    color: #5393fe;
+}
+
+.textLink {
+    color: #5393fe;
+}
+
+.textLink:hover {
+    border-bottom: 1px solid #5393fe;
+}
+
+
+
+@media screen and (max-width:450px){
+    .headTitle {
+        font-size: 2rem;
+    }
+    .subLine {
+     margin-left: 3em;
+     margin-top: -0.8em;
+     width: 45vw;
+    }
+    .subNumber {
+        font-size: 1.5rem;
+    }
+    .subNumberNav {
+        font-size: 1rem;
+    }
+}

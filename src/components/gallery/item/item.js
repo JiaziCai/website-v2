@@ -1,39 +1,61 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 import { Title, Copy } from './item.css';
 import itemStyle from './itemStyle.module.css';
 import { Link } from 'gatsby';
+import IconGithub from '../../icons/github';
+import IconWebsite from '../../icons/website';
 
-const Item = ({ title, copy, image }) => (
-  <Link to="/about">
-    <div className={itemStyle.root}>
-      <div className={itemStyle.ProjectCardContent}>
-        <h6>Spotify Data Viz</h6>
-        <h3>#UI/UX</h3>
-        <div className="css-1206gns eirj6vi4">
-          <div>
-            <p className={itemStyle.description}>
-              Get user profile and playlist, recommend songs based on user
-              preference
-            </p>
-            <p className={itemStyle.tech}>React.js Node.js Chart.js Sass</p>
-          </div>
-        </div>
-        <div className={itemStyle.ProjectCardAction}>
-          Details <span>→</span>
+const Item = ({ name, image, info, answer, tech, website, github }) => (
+  <div className={itemStyle.root}>
+    <div className={itemStyle.ProjectCardContent}>
+      <h6>{name}</h6>
+      <div className="css-1206gns eirj6vi4">
+        <div>
+          <p className={itemStyle.description}>{info}</p>
+          <p className={itemStyle.tech}>{answer}</p>
         </div>
       </div>
-      <div className={itemStyle.imageContainer}>
-        <img
-          src="https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg"
-          height="316px"
-          width="400px"
-          alt="abc"
-        />
+      <div style={{ marginTop: '3rem', marginBottom: '3rem' }}>
+        {website && (
+          <a
+            href={`https://${website}`}
+            target="_blank"
+            rel="noreferrer"
+            className={itemStyle.social}
+          >
+            <IconWebsite />
+          </a>
+        )}
+        {github && (
+          <a
+            href={`https://${github}`}
+            target="_blank"
+            rel="noreferrer"
+            className={itemStyle.social}
+          >
+            <IconGithub />
+          </a>
+        )}
+      </div>
+      <div className={itemStyle.ProjectCardAction}>
+        Details <span>→</span>
       </div>
     </div>
-  </Link>
+    <div className={itemStyle.imageContainer}>
+      <img
+        src={image}
+        height="100%"
+        width="100%"
+        alt="abc"
+        style={{ borderRadius: '5px' }}
+      />
+      <div className={itemStyle.details}></div>
+      <a href="/about" className={itemStyle.detailLink}>
+        <span className={itemStyle.detailText}>More Details</span>
+      </a>
+    </div>
+  </div>
 );
 
 Item.propTypes = {

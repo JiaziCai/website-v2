@@ -1,19 +1,98 @@
 {
   "title": "Home",
   "content": "intro.md",
-  "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+  "gallery": [
+  {
+    "tech": ["All", "React", "redux", "Node", "GraphQL"],
+    "name": "ALIVE",
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newAlive_bbh8tu.jpg",
+    "info":
+      "Developing E-learning platform for New York University with MERN stack",
+    "answer": "MongoDB, Express, React/Redux, Node, GraphQL",
+    "website": "alive.xprss.org",
+    "github": ""
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "name": "Spotify Data Viz",
+    "tech": ["All", "React", "Redux", "Data Viz", "REST API", "Node", "UI/UX"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590525737/newsdv_mu4n6b.jpg",
+    "info":
+      "Get user's profile and playlist, recommend songs based on user preference",
+    "answer": "React, Node, REST API, Styled-Component, Mixins",
+    "website": "spotify-datavis.herokuapp.com/",
+    "github": "github.com/JiaziCai/spotify-ui"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
-  }]
+    "name": "Fruit Chat",
+    "tech": [
+      "All",
+      "React",
+      "Redux",
+      "Node",
+      "Express",
+      "UI/UX",
+      "Firebase",
+      "REST API"
+    ],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590296268/fc_efh5yy.jpg",
+    "info": "MERN stack project for chat web application",
+    "answer": "React, Redux, NodeJS, Express, Material UI, Firebase, REST API",
+    "website": "jiazicai.github.io/FruitChat/",
+    "github": "github.com/JiaziCai/FruitChat "
+  },
+  {
+    "name": "Letgo Furniture",
+    "tech": ["All", "React", "UI/UX", "Mobile", "Node"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg",
+    "info": "React Native app for selling furnitures",
+    "answer": "React, React Native, Node, NPM, Expo",
+    "github": "github.com/JiaziCai/letgo-furniture"
+  },
+  {
+    "name": "Shop Ramen",
+    "tech": ["All", "React", "Netlify", "UI/UX"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newssr_pbxxia.jpg",
+    "info": "Dynamic and responsive shopping website",
+    "answer":
+      "React, Redux, Gatsby, Netlify, Bootstrap, Contentful, Styled-Component",
+    "website": "shop-ramen.netlify.app/",
+    "github": "github.com/JiaziCai/Shop-Ramen/"
+  },
+  {
+    "name": "To Do List",
+    "tech": ["All", "React", "Firebase", "SCSS"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590296269/tdl_wf7zbz.jpg",
+    "info":
+      "Add/delete task, categorize task, light/dark mode, accessibility, quick add task",
+    "answer": "React, Firebase, React Testing Library, SCSS",
+    "website": "jiazicai.github.io/todolist/",
+    "github": "github.com/JiaziCai/todolist"
+  },
+  {
+    "name": "COVID Tracker",
+    "tech": ["All", "REST API", "Data Viz", "React", "Data Vis"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newCovid-19_jkuyfz.jpg",
+    "info": "Used REST API to fetch data and Chart.js to display COVID-19 data",
+    "answer": "React, REST API, CSS Modules, Chart.js",
+    "website": "jiazicai.github.io/covid-tracker",
+    "github": "github.com/JiaziCai/covid-tracker"
+  },
+  {
+    "name": "Quiz Generator",
+    "tech": ["All", "REST API", "React", "UI/UX"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1590296268/qg_il4c2f.jpg",
+    "info": "Used REST API to generate quiz by category and number",
+    "answer": "React, REST API, CSS Grid",
+    "website": "jiazicai.github.io/quiz-generator",
+    "github": "github.com/JiaziCai/quiz-generator"
+  }
+]
 }

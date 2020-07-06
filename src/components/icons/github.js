@@ -6,6 +6,8 @@ const IconGithub = () => (
     role="img"
     viewBox="0 0 438.549 438.549"
     fill="#A9AAAB"
+    height="32px"
+    width="32px"
   >
     <title>Github</title>
     <path

@@ -16,6 +16,10 @@ export const Container = styled.header`
       color: inherit;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    padding: 2rem;
+  }
 `;
 
 export const Logo = styled.header`
@@ -45,7 +49,7 @@ export const Logo = styled.header`
         case 'large':
           return '2rem';
         default:
-          return '100px';
+          return '80px';
       }
     }};
   `};
@@ -56,7 +60,7 @@ export const Logo = styled.header`
         case 'large':
           return '2rem';
         default:
-          return '100px';
+          return '80px';
       }
     }};
   `};

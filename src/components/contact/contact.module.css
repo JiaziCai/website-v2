@@ -5,7 +5,7 @@
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -65,5 +65,11 @@
 @media screen and (max-width: 768px) {
     .socialDiv>li {
         display: block;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .title {
+        font-size: 2rem;
     }
 }
