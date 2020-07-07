@@ -73,7 +73,7 @@ export default createGlobalStyle`
   }
 
   a:hover {
-    color: #5393fe !important;
+    color: #013A9D !important;
   }
 
   pre {

@@ -24,7 +24,7 @@ export const Container = styled.header`
 `;
 
 export const Logo = styled.header`
-  background: #c7e2ff;
+  background: #013a9d;
   height: 60px;
   width: 60px;
   border-radius: 50%;

@@ -16,10 +16,10 @@
 }
 
 .email {
-    border: 2px solid #5393fe;
+    border: 2px solid #013A9D;
     padding: 1.5rem 2rem;
     border-radius: 3px;
-    color: #5393fe;
+    color: #013A9D;
 }
 
 .email:hover {
@@ -27,7 +27,7 @@
 }
 
 .email>span {
-    color: #5393fe;
+    color: #013A9D;
 }
 
 
@@ -58,7 +58,7 @@
 }
 
 .footer:hover a{
-    color: #5393fe;
+    color: #013A9D;
     cursor: pointer;
 }
 

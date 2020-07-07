@@ -5,15 +5,15 @@
 }
 
 .cardButtonActive {
-    background: #5393fe;
-    color:#000000;
+    background: #013A9D;
+    color:#ffffff;
   }
 
 button {
-    border: 1.5px solid #5393fe;
+    border: 1.5px solid #013A9D;
     padding: 1.5rem 2rem;
     border-radius: 3px;
-    color: #5393fe;
+    color: #013A9D;
     display: inline;
     background: none;
     margin-top: 1rem;
@@ -21,16 +21,16 @@ button {
   }
 
 button:hover {
-    background: #5393fe;
+    background: #013A9D;
     cursor: pointer;
-    color: #000000;
+    color: #ffffff;
 }
 
 .email {
-    border: 2px solid #5393fe;
+    border: 2px solid #013A9D;
     padding: 1.5rem 2rem;
     border-radius: 3px;
-    color: #5393fe;
+    color: #013A9D;
 }
 
 .email:hover {
@@ -48,7 +48,7 @@ button:hover {
 }
 
 .email>span {
-    color: #5393fe;
+    color: #013A9D;
 }
 
 .introSub {
@@ -92,12 +92,12 @@ button:hover {
 }
 
 .subNumber {
-    color: #5393fe;
+    color: #013A9D;
     font-size: 3rem;
 }
 
 .subNumberNav {
-    color: #5393fe;
+    color: #013A9D;
     font-size: 1.5rem;
 }
 
@@ -149,7 +149,7 @@ button:hover {
     border-radius: 5px;
     top: 20px;
     left: 20px;
-    background-color: #5393fe;
+    background-color: #013A9D;
     opacity: 0.3;
     border-image: initial;
 }
@@ -171,17 +171,17 @@ button:hover {
 }
 
 .techList>li>span{
-    color: #5393fe;
+    color: #013A9D;
     position: absolute;
     left:0;
 }
 
 .textLink {
-    color: #5393fe;
+    color: #013A9D;
 }
 
 .textLink:hover {
-    border-bottom: 1px solid #5393fe;
+    border-bottom: 1px solid #013A9D;
 }
 
 

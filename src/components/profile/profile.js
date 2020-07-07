@@ -72,7 +72,7 @@ const Profile = () => (
       </div>
       <div className="profileArea">
         <img
-          src="https://res.cloudinary.com/firebeat/image/upload/v1594065065/jiazi_pbll1x.jpg"
+          src="https://res.cloudinary.com/firebeat/image/upload/v1594094304/jiazicai_i4sliw.jpg"
           alt="jiazi"
           className="profileImg"
         />

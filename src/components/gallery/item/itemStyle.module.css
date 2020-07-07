@@ -15,7 +15,7 @@
 }
 
 .root:hover .ProjectCardAction {
-    color: #5393fe;
+    color: #013A9D;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
 }
@@ -74,7 +74,7 @@
 
 .root>div>h6 {
     font-weight: 600;
-    color: #5393fe;
+    color: #013A9D;
     font-size: 2.25rem;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .ProjectCardAction:hover {
-    color: #c7e2ff;
+    color: #013A9D;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
 }
@@ -140,24 +140,24 @@
 }
 
 .social:hover svg{
-    fill: #5393fe;
+    fill: #013A9D;
     transform: translateY(-5px);
 }
 
 .details {
-    border: 2px solid #5393fe;
+    border: 2px solid #013A9D;
     padding: 1.5rem 2rem;
     border-radius: 3px;
     color: black;
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #5393fe;
+    background-color: #013A9D;
     opacity: 0;
 }
 
 .detailLink {
-    border: 2px solid #5393fe;
+    border: 2px solid #013A9D;
     padding: 1.5rem 2rem;
     border-radius: 3px;
     color: black;
@@ -168,7 +168,7 @@
 }
 
 .detailLink>span {
-    color: #5393fe;
+    color: #013A9D;
 
 }
 

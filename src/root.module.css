@@ -68,7 +68,7 @@
 }
 
 .leftBar>ul>li>a>svg:hover {
-    fill:#5393fe;
+    fill:#013A9D;
     transform: translateY(-5px);
 
 }
@@ -101,7 +101,7 @@
 }
 
 .rightBar>a:hover span {
-    color: #5393fe;
+    color: #013A9D;
 }
 
 @media only screen and (max-width:1400px) {
