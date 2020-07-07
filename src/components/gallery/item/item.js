@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import itemStyle from './itemStyle.module.css';
 import IconGithub from '../../icons/github';
 import IconWebsite from '../../icons/website';
@@ -38,26 +39,26 @@ const Item = ({ name, image, info, answer, website, github }) => (
           </a>
         )}
       </div>
-      <div className={itemStyle.ProjectCardAction}>
-        Details <span>→</span>
-      </div>
+      <Link to={`${name}`}>
+        <div className={itemStyle.ProjectCardAction}>
+          Details <span>→</span>
+        </div>
+      </Link>
     </div>
     <div className={itemStyle.imageContainer}>
       <img
         src={image}
         height="100%"
         width="100%"
-        alt="abc"
+        alt={`${name}`}
         style={{ borderRadius: '5px' }}
       />
       <div className={itemStyle.details}></div>
-      <a
-        href="/about"
-        title="Go to about section"
-        className={itemStyle.detailLink}
-      >
-        <span className={itemStyle.detailText}>More Details</span>
-      </a>
+      <Link to={`${name}`} title={`${name}`} className={itemStyle.detailLink}>
+        <div className={itemStyle.detailDiv}>
+          <button>More Details</button>
+        </div>
+      </Link>
     </div>
   </div>
 );

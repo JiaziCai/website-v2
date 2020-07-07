@@ -128,11 +128,11 @@
 }
 
 .imageContainer:hover .detailLink{
-    opacity: 1;
+    opacity: 0.6;
 }
 
 .detailLink:hover {
-    background-color:#f9f9f9;
+    background-color:#013A9D;
 }
 
 .social {
@@ -146,7 +146,6 @@
 
 .details {
     border: 2px solid #013A9D;
-    padding: 1.5rem 2rem;
     border-radius: 3px;
     color: black;
     position: absolute;
@@ -157,19 +156,33 @@
 }
 
 .detailLink {
-    border: 2px solid #013A9D;
-    padding: 1.5rem 2rem;
     border-radius: 3px;
     color: black;
     position: absolute;
-    top: 45%;
-    background-color: white;
+    height: 100%;
+    width: 100%;
     opacity: 0;
 }
 
-.detailLink>span {
-    color: #013A9D;
+.detailDiv {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #111010;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 200;
+}
 
+.detailDiv>button {
+    color: #5393fe;
+    background: transparent;
+    background: #fff;
+    border-color: #5393fe;
 }
 
 @media screen and (max-width: 768px) {

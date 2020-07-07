@@ -7,7 +7,7 @@ import Gallery from 'components/gallery';
 // import Modal from 'containers/modal';
 import Contact from 'components/contact';
 import Profile from 'components/profile';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import './index.css';
 
 const cardOptions = [
@@ -83,14 +83,14 @@ const Index = ({ data }) => {
         </div>
       </Box>
       <div style={{ height: '30vh' }}></div>
-      <a name="about" href="/" title="Go to about section">
+      <Link name="about" to="/" title="Go to about section">
         {}
-      </a>
+      </Link>
       <Profile />
       <div style={{ height: '30vh' }}></div>
-      <a name="work" href="/" title="Go to work section">
+      <Link name="work" to="/" title="Go to work section">
         {}
-      </a>
+      </Link>
       <div className="headTitle">
         <h1 style={{ margin: '2rem' }}>
           <span className="subNumber">02.</span>Work
@@ -117,9 +117,9 @@ const Index = ({ data }) => {
       </div>
       <Gallery items={data.homeJson.gallery} card={card} />
       <div style={{ height: '20vh' }} />
-      <a name="contact" href="/" title="Go to contact">
+      <Link name="contact" to="/" title="Go to contact">
         {}
-      </a>
+      </Link>
       <Contact />
     </Layout>
   );

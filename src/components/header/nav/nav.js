@@ -6,7 +6,7 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/about">
+        <Link to="/#about" title="Go to about section">
           <span className="subNumberNav">01.</span>About
         </Link>
       </li>
@@ -16,9 +16,9 @@ const Nav = () => (
         </a>
       </li>
       <li>
-        <a href="/#contact" title="Go to contact section">
+        <Link to="/#contact" title="Go to contact section">
           <span className="subNumberNav">03.</span>Contact
-        </a>
+        </Link>
       </li>
     </ul>
   </Container>
