@@ -5,7 +5,8 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
 
   a {
     color: #757575;
@@ -17,15 +18,15 @@ export const Container = styled.header`
     }
   }
 
-  @media screen and (max-width: 450px) {
-    padding: 2rem;
+  @media screen and (max-width: 768px) {
+    padding: 0rem;
   }
 `;
 
 export const Logo = styled.header`
   background: #c7e2ff;
-  height: 200px;
-  width: 200px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   display: flex;
 

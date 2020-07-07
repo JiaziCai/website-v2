@@ -37,8 +37,29 @@ button:hover {
     background:#f9f9f9;
 }
 
+.emailContainer {
+    width: 112px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.emailContainer:hover {
+    transform: translateY(-5px);
+}
+
 .email>span {
     color: #5393fe;
+}
+
+.introSub {
+    font-size: 3.8em;
+    opacity: 0.5;
+}
+
+.introDetail {
+    color: #A9AAAB;
+    margin-top: 2rem;
+    font-size: 1.25em;
 }
 
 
@@ -80,12 +101,57 @@ button:hover {
     font-size: 1.5rem;
 }
 
+.profileDiv {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: flex-start;
+}
+
 .textArea {
     margin: 4rem;
     width: 60%;
     max-width: 550px;
     line-height: 1.5em;
     font-size: 1.1em;
+}
+
+.profileArea {
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    margin: 4em;
+}
+
+.profileArea:hover .profileImg {
+    opacity: 1;
+}
+
+.profileArea:hover .profileImageContainer{
+    transform: translateY(-40px) translateX(-40px);
+}
+
+.profileImg {
+    height:288px;
+    width:250px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.profileImageContainer {
+    height: 288px;
+    width: 250px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    opacity: 0.25;
+    border-radius: 5px;
+    top: 20px;
+    left: 20px;
+    background-color: #5393fe;
+    opacity: 0.3;
+    border-image: initial;
 }
 
 .techList {
@@ -100,10 +166,14 @@ button:hover {
 .techList>li {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
+    padding-left: 20px;
+    position: relative;
 }
 
 .techList>li>span{
     color: #5393fe;
+    position: absolute;
+    left:0;
 }
 
 .textLink {
@@ -115,6 +185,28 @@ button:hover {
 }
 
 
+@media screen and (max-width:768px) {
+    .profileDiv {
+        display: block;
+        padding-right: 2em;
+    }
+    .textArea{
+        width: 100%;
+        margin: 2rem;
+        font-size: 1em;
+    }
+    .headTitle {
+        margin-left: 0;
+    }
+    .profileArea {
+        margin: 1em;
+    }
+
+    .introSub {
+        font-size: 3.5em;
+    }
+
+}
 
 @media screen and (max-width:450px){
     .headTitle {
@@ -130,5 +222,8 @@ button:hover {
     }
     .subNumberNav {
         font-size: 1rem;
+    }
+    .introSub {
+        font-size: 2em;
     }
 }

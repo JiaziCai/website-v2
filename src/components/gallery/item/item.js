@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Copy } from './item.css';
 import itemStyle from './itemStyle.module.css';
-import { Link } from 'gatsby';
 import IconGithub from '../../icons/github';
 import IconWebsite from '../../icons/website';
 
-const Item = ({ name, image, info, answer, tech, website, github }) => (
+const Item = ({ name, image, info, answer, website, github }) => (
   <div className={itemStyle.root}>
     <div className={itemStyle.ProjectCardContent}>
       <h6>{name}</h6>

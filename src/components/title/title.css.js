@@ -3,7 +3,9 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled.span`
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
@@ -15,9 +17,9 @@ export const Text = styled.span`
   font-size: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '3.2rem';
+        return '5.35em';
       default:
-        return '5rem';
+        return '3rem';
     }
   }};
   line-height: 1.2;
@@ -26,7 +28,7 @@ export const Text = styled.span`
     font-size: ${({ size }) => () => {
       switch (size) {
         case 'large':
-          return '2.6rem';
+          return '4em';
         default:
           return '4rem';
       }
@@ -36,9 +38,9 @@ export const Text = styled.span`
     font-size: ${({ size }) => () => {
       switch (size) {
         case 'large':
-          return '2rem';
+          return '3em';
         default:
-          return '2rem';
+          return '3em';
       }
     }};
   `};

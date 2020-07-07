@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: 'Jiazi Cai',
+  siteTitle: 'J',
   siteTitleShort: 'GatsbyU',
   siteDescription: 'An opinionated starter for Gatsby.',
   siteUrl: 'https://gu.fabianschultz.com',

@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import Modal from 'containers/modal';
+// import Modal from 'containers/modal';
 import Contact from 'components/contact';
 import Profile from 'components/profile';
 import { graphql } from 'gatsby';
@@ -42,9 +42,25 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Box>
+        <div style={{ height: '10vh' }}></div>
+        <div
+          style={{ fontWeight: '300', fontSize: '1.4em', marginBottom: '3rem' }}
+        >
+          Hello!&nbsp;
+          <span role="img" aria-label="emoji" style={{ fontSize: '1.4em' }}>
+            🤹🏻
+          </span>
+        </div>
         <Title as="h2" size="large">
           {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
         </Title>
+        <div className="introSub">I create things for the web.</div>
+        <div className="introDetail">
+          I&apos;m a software engineer based in Los Angeles, CA specializing in
+          building (and sometimes designing) amazing websites, mobile apps, and
+          everything in between.
+        </div>
+
         {/* <Modal>
           <video
             src="https://i.imgur.com/gzFqNSW.mp4"
@@ -54,7 +70,7 @@ const Index = ({ data }) => {
             muted
           />
         </Modal> */}
-        <div style={{ marginTop: '4rem', marginBottom: '4rem' }}>
+        <div className="emailContainer">
           <a
             href="mailto:caijiazi777@gmail.com"
             target="_blank"
@@ -91,7 +107,7 @@ const Index = ({ data }) => {
           <p key={id} className="list">
             <button
               className={card == name ? 'cardButtonActive' : 'cardButton'}
-              onClick={e => setCard(name)}
+              onClick={() => setCard(name)}
             >
               {name}
             </button>

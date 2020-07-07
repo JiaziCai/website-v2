@@ -18,14 +18,19 @@ const Contact = () => (
         get back to you as soon as possible!
       </p>
     </div>
-    <a
-      href="mailto:caijiazi777@gmail.com"
-      target="_blank"
-      rel="nofollow noopener noreferrer"
-      className={contactStyle.email}
+    <div
+      className="emailContainer"
+      style={{ textAlign: 'center', marginLeft: 'auto', marginRight: 'auto' }}
     >
-      <span>Say Hello</span>
-    </a>
+      <a
+        href="mailto:caijiazi777@gmail.com"
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        className={contactStyle.email}
+      >
+        <span>Say Hello</span>
+      </a>
+    </div>
     <div style={{ height: '30vh' }} />
     <ul className={contactStyle.socialDiv}>
       <li>
