@@ -21,6 +21,7 @@ const Layout = ({ data, children }) => (
               href="https://github.com/JiaziCai"
               target="_blank"
               rel="noreferrer"
+              title="go to github"
             >
               <IconGithub />
             </a>
@@ -30,12 +31,13 @@ const Layout = ({ data, children }) => (
               href="https://www.linkedin.com/in/caijiazi/"
               target="_blank"
               rel="noreferrer"
+              title="go to linkedin"
             >
               <IconLinkedin />
             </a>
           </li>
           <li style={{ marginTop: '1.25em', marginBottom: '1.25em' }}>
-            <a href={Pdf} target="_blank" rel="noreferrer">
+            <a href={Pdf} target="_blank" rel="noreferrer" title="go to resume">
               <IconResume />
             </a>
           </li>
@@ -43,7 +45,11 @@ const Layout = ({ data, children }) => (
         </ul>
       </div>
       <div className={rootStyle.rightBar}>
-        <a href="mailto:caijiazi777@gmail.com" className={rootStyle.email}>
+        <a
+          href="mailto:caijiazi777@gmail.com"
+          className={rootStyle.email}
+          title="email to "
+        >
           <span>caijiazi777@gmail.com</span>
         </a>
         <div className={rootStyle.line}></div>

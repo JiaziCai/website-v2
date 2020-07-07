@@ -11,12 +11,12 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        <a href="/#work">
+        <a href="/#work" title="Go to work section">
           <span className="subNumberNav">02.</span>Work
         </a>
       </li>
       <li>
-        <a href="/#contact">
+        <a href="/#contact" title="Go to contact section">
           <span className="subNumberNav">03.</span>Contact
         </a>
       </li>

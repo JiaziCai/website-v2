@@ -57,7 +57,7 @@ button:hover {
 }
 
 .introDetail {
-    color: #A9AAAB;
+    color: #414148;
     margin-top: 2rem;
     font-size: 1.25em;
 }
@@ -73,7 +73,7 @@ button:hover {
     display: block;
     height: 1px;
     width: 30vw;
-    background-color:#A9AAAB;
+    background-color:#414148;
     position: relative;
     top: -5px;
     margin-left: 20px;

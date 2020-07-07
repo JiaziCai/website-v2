@@ -27,6 +27,7 @@ const Profile = () => (
             target="_blank"
             rel="noreferrer"
             className="textLink"
+            title="New York University home page"
           >
             New York University
           </a>{' '}
@@ -36,6 +37,7 @@ const Profile = () => (
             target="_blank"
             rel="noreferrer"
             className="textLink"
+            title="Alive website"
           >
             ALIVE
           </a>{' '}

@@ -76,18 +76,19 @@ const Index = ({ data }) => {
             target="_blank"
             rel="nofollow noopener noreferrer"
             className="email"
+            title="email to"
           >
             <span>Say Hello</span>
           </a>
         </div>
       </Box>
       <div style={{ height: '30vh' }}></div>
-      <a name="about" href="/">
+      <a name="about" href="/" title="Go to about section">
         {}
       </a>
       <Profile />
       <div style={{ height: '30vh' }}></div>
-      <a name="work" href="/">
+      <a name="work" href="/" title="Go to work section">
         {}
       </a>
       <div className="headTitle">
@@ -116,7 +117,7 @@ const Index = ({ data }) => {
       </div>
       <Gallery items={data.homeJson.gallery} card={card} />
       <div style={{ height: '20vh' }} />
-      <a name="contact" href="/">
+      <a name="contact" href="/" title="Go to contact">
         {}
       </a>
       <Contact />

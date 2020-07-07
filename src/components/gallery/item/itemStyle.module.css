@@ -47,7 +47,7 @@
 }
 
 .ProjectCardAction {
-    color: #A9AAAB;
+    color: #414148;
 }
 
 .ProjectCardAction:hover {
@@ -72,16 +72,16 @@
     opacity: 0.8;
 }
 
-.root>div>h6 {
+.root>div>h1 {
     font-weight: 600;
     color: #013A9D;
-    font-size: 2.25rem;
+    font-size: 3.25rem;
 }
 
 .root>div>h3 {
     margin-bottom: 0.5em;
     margin-top: 0.5em;
-    color: #A9AAAB;
+    color: #414148;
 }
 
 .description {
@@ -89,8 +89,8 @@
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     position: relative;
     z-index: 2;
-    background-color: #A9AAAB;
-    color: #000000;
+    background-color: #414148;
+    color: #ffffff;
     font-size: 18px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     padding: 25px;
@@ -100,7 +100,7 @@
 }
 
 .tech {
-    color: #A9AAAB;
+    color: #414148;
 }
 
 .ProjectCardAction:hover {

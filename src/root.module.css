@@ -78,7 +78,7 @@
     display: block;
     width: 1px;
     height: 140px;
-    background-color: #A9AAAB;
+    background-color: #414148;
     margin: 0px auto;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .email>span {
-    color:#A9AAAB;
+    color:#414148;
 }
 
 .rightBar>a:hover {

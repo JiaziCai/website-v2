@@ -26,6 +26,7 @@ const Contact = () => (
         href="mailto:caijiazi777@gmail.com"
         target="_blank"
         rel="nofollow noopener noreferrer"
+        title="email"
         className={contactStyle.email}
       >
         <span>Say Hello</span>
@@ -34,7 +35,12 @@ const Contact = () => (
     <div style={{ height: '30vh' }} />
     <ul className={contactStyle.socialDiv}>
       <li>
-        <a href="https://github.com/JiaziCai" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/JiaziCai"
+          title="github"
+          target="_blank"
+          rel="noreferrer"
+        >
           <IconGithub />
         </a>
       </li>
@@ -43,18 +49,24 @@ const Contact = () => (
           href="https://www.linkedin.com/in/caijiazi/"
           target="_blank"
           rel="noreferrer"
+          title="linkedin"
         >
           <IconLinkedin />
         </a>
       </li>
       <li>
-        <a href={Pdf} target="_blank" rel="noreferrer">
+        <a href={Pdf} target="_blank" rel="noreferrer" title="resume">
           <IconResume />
         </a>
       </li>
     </ul>
     <div className={contactStyle.footer}>
-      <a href="https://github.com/JiaziCai/website-v2">Website by Jiazi Cai</a>
+      <a
+        href="https://github.com/JiaziCai/website-v2"
+        title="go to Jiazi Cai Website Github"
+      >
+        Website by Jiazi Cai
+      </a>
     </div>
   </section>
 );

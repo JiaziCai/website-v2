@@ -7,7 +7,7 @@ import IconWebsite from '../../icons/website';
 const Item = ({ name, image, info, answer, website, github }) => (
   <div className={itemStyle.root}>
     <div className={itemStyle.ProjectCardContent}>
-      <h6>{name}</h6>
+      <h1>{name}</h1>
       <div className="css-1206gns eirj6vi4">
         <div>
           <p className={itemStyle.description}>{info}</p>
@@ -21,6 +21,7 @@ const Item = ({ name, image, info, answer, website, github }) => (
             target="_blank"
             rel="noreferrer"
             className={itemStyle.social}
+            title={`Go to ${website}`}
           >
             <IconWebsite />
           </a>
@@ -31,6 +32,7 @@ const Item = ({ name, image, info, answer, website, github }) => (
             target="_blank"
             rel="noreferrer"
             className={itemStyle.social}
+            title={`go to ${github}`}
           >
             <IconGithub />
           </a>
@@ -49,7 +51,11 @@ const Item = ({ name, image, info, answer, website, github }) => (
         style={{ borderRadius: '5px' }}
       />
       <div className={itemStyle.details}></div>
-      <a href="/about" className={itemStyle.detailLink}>
+      <a
+        href="/about"
+        title="Go to about section"
+        className={itemStyle.detailLink}
+      >
         <span className={itemStyle.detailText}>More Details</span>
       </a>
     </div>
