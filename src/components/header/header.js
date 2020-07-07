@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import posed from 'react-pose';
 import { Container, Logo } from './header.css';
 import Title from 'components/title';
+import Jc from 'components/icons/jc';
 import Nav from 'components/header/nav';
 
 // Example of a component-specific page transition
@@ -27,7 +28,7 @@ const Header = ({ title }) => (
     <Container>
       <Link to="/">
         <Logo>
-          <Title as="h1">{title}</Title>
+          <Jc />
         </Logo>
       </Link>
 

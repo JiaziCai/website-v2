@@ -25,8 +25,8 @@ export const Container = styled.header`
 
 export const Logo = styled.header`
   background: #c7e2ff;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   display: flex;
 
@@ -44,13 +44,19 @@ export const Logo = styled.header`
   &:hover {
     background: none;
   }
+
+  @media screen and (max-width: 450px) {
+    svg {
+      height: 40px;
+    }
+  }
   ${MEDIA.PHONE`
     height: ${({ height }) => () => {
       switch (height) {
         case 'large':
           return '2rem';
         default:
-          return '80px';
+          return '40px';
       }
     }};
   `};
@@ -61,7 +67,7 @@ export const Logo = styled.header`
         case 'large':
           return '2rem';
         default:
-          return '80px';
+          return '40px';
       }
     }};
   `};
