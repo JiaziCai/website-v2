@@ -8,9 +8,9 @@ import Pdf from '../document/Resume.pdf';
 
 const Contact = () => (
   <section id="contact" className={contactStyle.contact}>
-    <h4 className={contactStyle.title}>
+    <h1 className={contactStyle.title}>
       <span className="subNumber">03.</span>Contact
-    </h4>
+    </h1>
     <div>
       <p className={contactStyle.body}>
         I am currently looking for new opportunities, and please feel free to
