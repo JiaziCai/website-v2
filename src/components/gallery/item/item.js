@@ -66,6 +66,11 @@ Item.propTypes = {
   title: PropTypes.string,
   copy: PropTypes.string,
   image: PropTypes.object.isRequired,
+  name: PropTypes.string,
+  info: PropTypes.string,
+  answer: PropTypes.string,
+  website: PropTypes.string,
+  github: PropTypes.string,
 };
 
 export default Item;
