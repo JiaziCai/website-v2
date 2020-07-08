@@ -91,7 +91,7 @@
     z-index: 2;
     background-color: #414148;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.5rem;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     padding: 25px;
     border-radius: 3px;
@@ -195,5 +195,9 @@
     }
     .ProjectCardContent {
         padding: 0.5em 3em 2em 0em;
+    }
+
+    .root>div>h1{
+        font-size: 1.75rem;
     }
 }

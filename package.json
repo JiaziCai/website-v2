@@ -2,7 +2,7 @@
   "name": "jiazicai-website",
   "license": "MIT",
   "author": "Jiazi Cai <caijiazi777@gmail.com>",
-  "homepage": "http://jiazicai.github.io/website-v2",
+  "homepage": "https://jiazicai.github.io/website-v2",
   "scripts": {
     "develop": "gatsby develop",
     "predeploy": "npm run build",

@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: 'Jiazi Cai | Full Stack Developer',
   siteTitleShort: 'Portfolio Website',
   siteDescription: 'Showcase of Jiazi Cai`s projects and info',
-  siteUrl: 'https://jiazi.dev',
+  siteUrl: 'https://jiazicai.github.io/website-v2/',
   themeColor: '#000',
   backgroundColor: '#fff',
   pathPrefix: null,
