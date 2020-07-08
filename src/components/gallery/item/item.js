@@ -39,7 +39,7 @@ const Item = ({ name, image, info, answer, website, github }) => (
           </a>
         )}
       </div>
-      <Link to={`${name}`}>
+      <Link to={website ? `https://${website}` : `https://${github}`}>
         <div className={itemStyle.ProjectCardAction}>
           Details <span>→</span>
         </div>
