@@ -1,50 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-// import Modal from 'containers/modal';
 import Contact from 'components/contact';
 import Profile from 'components/profile';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import './index.css';
 
-const cardOptions = [
-  {
-    id: 191,
-    name: 'All',
-  },
-  {
-    id: 192,
-    name: 'React',
-  },
-  {
-    id: 193,
-    name: 'Node',
-  },
-  {
-    id: 194,
-    name: 'REST API',
-  },
-  {
-    id: 195,
-    name: 'Data Viz',
-  },
-  {
-    id: 196,
-    name: 'UI/UX',
-  },
-];
-
 const Index = ({ data }) => {
-  const [card, setCard] = useState('All');
   return (
     <Layout>
       <Box>
         <div style={{ height: '10vh' }}></div>
-        <div style={{ height: '50px' }}></div>
-
         <div
           style={{ fontWeight: '300', fontSize: '1.4em', marginBottom: '3rem' }}
         >
@@ -75,43 +44,10 @@ const Index = ({ data }) => {
         </div>
       </Box>
       <div style={{ height: '30vh' }}></div>
-      <Link name="about" to="/" title="Go to about section">
-        {}
-      </Link>
       <Profile />
       <div style={{ height: '30vh' }}></div>
-      <a name="work" href="/" title="Go to work section">
-        {}
-      </a>
-      <div className="headTitle">
-        <h1 style={{ margin: '2rem' }}>
-          <span className="subNumber">02.</span>Work
-        </h1>
-        <h1 className="headLine subLine">{}</h1>
-      </div>
-      <div
-        style={{
-          textAlign: 'center',
-          marginTop: '5rem',
-          marginBottom: '5rem',
-        }}
-      >
-        {cardOptions.map(({ id, name }) => (
-          <p key={id} className="list">
-            <button
-              className={card == name ? 'cardButtonActive' : 'cardButton'}
-              onClick={() => setCard(name)}
-            >
-              {name}
-            </button>
-          </p>
-        ))}
-      </div>
-      <Gallery items={data.homeJson.gallery} card={card} />
+      <Gallery items={data.homeJson.gallery} />
       <div style={{ height: '20vh' }} />
-      <Link name="contact" to="/" title="Go to contact">
-        {}
-      </Link>
       <Contact />
     </Layout>
   );
