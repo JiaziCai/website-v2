@@ -5,10 +5,6 @@ import { Container } from './gallery.css';
 
 const cardOptions = [
   {
-    id: 191,
-    name: 'All',
-  },
-  {
     id: 192,
     name: 'React',
   },
@@ -31,7 +27,7 @@ const cardOptions = [
 ];
 
 const Gallery = ({ items }) => {
-  const [skill, setSkill] = useState('All');
+  const [skill, setSkill] = useState('React');
   return (
     <section id="work">
       <div className="headTitle">
