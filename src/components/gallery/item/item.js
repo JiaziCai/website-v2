@@ -54,11 +54,15 @@ const Item = ({ name, image, info, answer, website, github }) => (
         style={{ borderRadius: '5px' }}
       />
       <div className={itemStyle.details}></div>
-      <Link to={`${name}`} title={`${name}`} className={itemStyle.detailLink}>
+      <a
+        href={website ? `https://${website}` : `https://${github}`}
+        title={`${name}`}
+        className={itemStyle.detailLink}
+      >
         <div className={itemStyle.detailDiv}>
-          <button>More Details</button>
+          <button>{website ? 'Website' : 'Github'}</button>
         </div>
-      </Link>
+      </a>
     </div>
   </div>
 );
