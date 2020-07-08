@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import posed from 'react-pose';
+import window from 'global';
 import { Container, Logo } from './header.css';
 import Jc from 'components/icons/jc';
 import Nav from 'components/header/nav';
