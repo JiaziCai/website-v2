@@ -8,8 +8,8 @@
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newAlive_bbh8tu.jpg",
     "info":
-      "Developing E-learning platform for New York University with MERN stack",
-    "answer": "MongoDB, Express, React/Redux, Node, GraphQL",
+      "Developed E-learning platform for New York University with MERN stack. Worked with UI team to ship responsive and isomorphic website for multiple browsers, monitors. Also messed around with API design and UI.",
+    "answer": "MongoDB, Express, React/Redux, Node, GraphQL, Figma",
     "website": "alive.xprss.org",
     "github": ""
   },
@@ -19,8 +19,8 @@
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590525737/newsdv_mu4n6b.jpg",
     "info":
-      "Get user's profile and playlist, recommend songs based on user preference",
-    "answer": "React, Node, REST API, Styled-Component, Mixins",
+      "A web app to visualize user's profile, playlists, followers, recently played songs. Also includes the frequently played song for within 4 weeks and 6 months. Songs includes detailed sound information. Create and modify your playlists with recommended songs based on your playlists and more.",
+    "answer": "React, Node, Express, REST API, Styled-Component, Mixins",
     "website": "spotify-datavis.herokuapp.com/",
     "github": "github.com/JiaziCai/spotify-ui"
   },
@@ -38,8 +38,8 @@
     ],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/fc_efh5yy.jpg",
-    "info": "MERN stack project for chat web application",
-    "answer": "React, Redux, NodeJS, Express, Material UI, Firebase, REST API",
+    "info": "Web app for cloning twitter's functionality such as post, comment, like, notification, deletion. Includes user authorization with Json Web Token to manage login, register, and session. Responsive and minimal design for chat app.",
+    "answer": "React, Redux, NodeJS, Express, Material UI, Firebase, REST API, JWT",
     "website": "jiazicai.github.io/FruitChat/",
     "github": "github.com/JiaziCai/FruitChat "
   },
@@ -48,7 +48,7 @@
     "tech": ["All", "React", "UI/UX", "Mobile", "Node"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg",
-    "info": "React Native app for selling furnitures",
+    "info": "React Native app for selling furnitures, includes user authentication and authorization, post listings, contact the seller, and more.",
     "answer": "React, React Native, Node, NPM, Expo",
     "github": "github.com/JiaziCai/letgo-furniture"
   },
@@ -57,7 +57,7 @@
     "tech": ["All", "React", "Netlify", "UI/UX"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newssr_pbxxia.jpg",
-    "info": "Dynamic and responsive shopping website",
+    "info": "Dynamic and responsive shopping website using GatsbyJS, with cart functionality for modify and calculate items in the cart and Paypal API for checkout.",
     "answer":
       "React, Redux, Gatsby, Netlify, Bootstrap, Contentful, Styled-Component",
     "website": "shop-ramen.netlify.app/",
