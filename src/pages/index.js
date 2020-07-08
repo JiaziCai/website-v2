@@ -43,6 +43,8 @@ const Index = ({ data }) => {
     <Layout>
       <Box>
         <div style={{ height: '10vh' }}></div>
+        <div style={{ height: '50px' }}></div>
+
         <div
           style={{ fontWeight: '300', fontSize: '1.4em', marginBottom: '3rem' }}
         >
@@ -60,16 +62,6 @@ const Index = ({ data }) => {
           building (and sometimes designing) amazing websites, mobile apps, and
           everything in between.
         </div>
-
-        {/* <Modal>
-          <video
-            src="https://i.imgur.com/gzFqNSW.mp4"
-            playsInline
-            loop
-            autoPlay
-            muted
-          />
-        </Modal> */}
         <div className="emailContainer">
           <a
             href="mailto:caijiazi777@gmail.com"
@@ -88,9 +80,9 @@ const Index = ({ data }) => {
       </Link>
       <Profile />
       <div style={{ height: '30vh' }}></div>
-      <Link name="work" to="/" title="Go to work section">
+      <a name="work" href="/" title="Go to work section">
         {}
-      </Link>
+      </a>
       <div className="headTitle">
         <h1 style={{ margin: '2rem' }}>
           <span className="subNumber">02.</span>Work

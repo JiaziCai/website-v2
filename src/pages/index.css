@@ -189,6 +189,18 @@ button:hover {
 }
 
 
+.navbar {
+    position: sticky;
+    top: 0;
+    transition: top 0.6s;
+    z-index: 100;
+    background-color: white;
+  }
+  
+  .navbar--hidden {
+    top: -50px;
+  }
+
 @media screen and (max-width:768px) {
     .profileDiv {
         display: block;
