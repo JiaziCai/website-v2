@@ -84,6 +84,7 @@ const Head = ({
     />
 
     {/* <link href="/manifest.json" rel="manifest" /> */}
+    <link rel="manifest" href="manifest.json" crossOrigin="use-credentials" />
 
     <link
       href="/icons/apple-touch-icon-57x57.png"
