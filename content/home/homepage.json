@@ -8,7 +8,7 @@
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newAlive_bbh8tu.jpg",
     "info":
-      "Developed E-learning platform for New York University with MERN stack. Worked with UI team to ship responsive and isomorphic website for multiple browsers, monitors. Also messed around with API design and UI.",
+      "Developed an E-learning platform for New York University with MERN stack. Worked with UI team to ship responsive and isomorphic website for multiple browsers, monitors. Also messed around with API design and UI.",
     "answer": "MongoDB, Express, React/Redux, Node, GraphQL, Figma",
     "website": "alive.xprss.org",
     "github": ""
@@ -19,7 +19,7 @@
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590525737/newsdv_mu4n6b.jpg",
     "info":
-      "A web app to visualize user's profile, playlists, followers, recently played songs. Also includes the frequently played song for within 4 weeks and 6 months. Songs includes detailed sound information. Create and modify your playlists with recommended songs based on your playlists and more.",
+      "A web app to visualize user's profile, playlists, followers, recently played songs. Also includes the frequently played song for within 4 weeks and 6 months. Songs include detailed sound information. Create and modify your playlists with recommended songs based on your playlists and more.",
     "answer": "React, Node, Express, REST API, Styled-Component, Mixins",
     "website": "spotify-datavis.herokuapp.com/",
     "github": "github.com/JiaziCai/spotify-ui"
@@ -38,7 +38,7 @@
     ],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/fc_efh5yy.jpg",
-    "info": "Web app for cloning twitter's functionality such as post, comment, like, notification, deletion. Includes user authorization with Json Web Token to manage login, register, and session. Responsive and minimal design for chat app.",
+    "info": "Web app for cloning twitter's functionality such as post, comment, like, notification, deletion. Includes user authorization with JSON Web Token to manage login, register, and session. Responsive and minimal design for the chat app.",
     "answer": "React, Redux, NodeJS, Express, Material UI, Firebase, REST API, JWT",
     "website": "jiazicai.github.io/FruitChat/",
     "github": "github.com/JiaziCai/FruitChat "
@@ -48,7 +48,7 @@
     "tech": ["All", "React", "UI/UX", "Mobile", "Node"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg",
-    "info": "React Native app for selling furnitures, includes user authentication and authorization, post listings, contact the seller, and more.",
+    "info": "React Native app for selling furniture, includes user authentication and authorization, post listings, contact the seller, and more.",
     "answer": "React, React Native, Node, NPM, Expo",
     "github": "github.com/JiaziCai/letgo-furniture"
   },
@@ -57,7 +57,7 @@
     "tech": ["All", "React", "Netlify", "UI/UX"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newssr_pbxxia.jpg",
-    "info": "Dynamic and responsive shopping website using GatsbyJS, with cart functionality for modify and calculate items in the cart and Paypal API for checkout.",
+    "info": "Dynamic and responsive shopping website using GatsbyJS, with cart functionality for modifying and calculate items in the cart and Paypal API for checkout.",
     "answer":
       "React, Redux, Gatsby, Netlify, Bootstrap, Contentful, Styled-Component",
     "website": "shop-ramen.netlify.app/",
@@ -69,7 +69,7 @@
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296269/tdl_wf7zbz.jpg",
     "info":
-      "Add/delete task, categorize task, light/dark mode, accessibility, quick add task",
+      "Add/delete task, categorize task, light/dark mode, accessibility, quick add task.",
     "answer": "React, Firebase, React Testing Library, SCSS",
     "website": "jiazicai.github.io/todolist/",
     "github": "github.com/JiaziCai/todolist"
@@ -79,7 +79,7 @@
     "tech": ["All", "REST API", "Data Viz", "React", "Data Vis"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newCovid-19_jkuyfz.jpg",
-    "info": "Used REST API to fetch data and Chart.js to display COVID-19 data",
+    "info": "Used REST API to fetch data and Chart.js to display COVID-19 data.",
     "answer": "React, REST API, CSS Modules, Chart.js",
     "website": "jiazicai.github.io/covid-tracker",
     "github": "github.com/JiaziCai/covid-tracker"
@@ -89,7 +89,7 @@
     "tech": ["All", "REST API", "React", "UI/UX"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1590296268/qg_il4c2f.jpg",
-    "info": "Used REST API to generate quiz by category and number",
+    "info": "Web app with REST API to generate quiz by category and number.",
     "answer": "React, REST API, CSS Grid",
     "website": "jiazicai.github.io/quiz-generator",
     "github": "github.com/JiaziCai/quiz-generator"
