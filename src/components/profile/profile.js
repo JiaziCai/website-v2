@@ -16,7 +16,7 @@ const Profile = () => (
         </p>
         <p>
           I like creating meaningful applications, whether that be websites,
-          mobile apps, or anything in between. My goal is build functional,
+          mobile apps, or anything in between. My goal is to build functional,
           interactive, and accessible products that provide pixel-perfect,
           performant experiences.
         </p>
@@ -41,8 +41,8 @@ const Profile = () => (
           >
             ALIVE
           </a>{' '}
-          as a Front End Engineer. I am starving to learn new skills and to
-          create side projects on a daily basis.
+          as a Front End Engineer. I learn new skills and contribute to side
+          projects daily.
         </p>
         <p>Here are a few technologies I&apos;ve been working on recently:</p>
         <ul className="techList">
