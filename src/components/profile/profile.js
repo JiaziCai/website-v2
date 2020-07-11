@@ -41,7 +41,7 @@ const Profile = () => (
           >
             ALIVE
           </a>{' '}
-          as an Front End Engineer. I am starving to learn new skills and to
+          as a Front End Engineer. I am starving to learn new skills and to
           create side projects on a daily basis.
         </p>
         <p>Here are a few technologies I&apos;ve been working on recently:</p>
