@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
   siteTitle: 'Jiazi Cai | Full Stack Developer',
   siteTitleShort: 'Portfolio Website',
-  siteDescription: 'Showcase of Jiazi Cai`s projects and info',
+  siteDescription:
+    'Jiazi Cai is a software engineer based in Los Angeles, CA who specializes in building (and occasionally designing) amazing websites, applications.',
   siteUrl: 'https://jiazi.dev/',
   themeColor: '#000',
   backgroundColor: '#fff',
