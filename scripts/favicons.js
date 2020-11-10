@@ -26,7 +26,8 @@ const configuration = {
   theme_color: themeColor,
   display: 'standalone',
   orientation: 'any',
-  start_url: '/',
+  // start_url: '/',
+  start_url: 'https://jiazi.dev/',
   version: '1.0',
   logging: true,
   icons: {
