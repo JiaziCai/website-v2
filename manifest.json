@@ -6,7 +6,7 @@
   "lang": "en-US",
   "display": "standalone",
   "orientation": "any",
-  "start_url": "/",
+  "start_url": "https://jiazi.dev/",
   "background_color": "#fff",
   "theme_color": "#000",
   "icons": [
