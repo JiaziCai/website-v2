@@ -25,6 +25,17 @@
     "github": "github.com/JiaziCai/spotify-ui"
   },
   {
+    "name": "Food Zone",
+    "tech": ["All", "React", "Redux", "REST API", "Node", "UI/UX"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1604968312/foodzone_mknyej.jpg",
+    "info":
+      "E-commerce website with User auth, check out with paypal, add item to cart, admin upload and edit product, manage orders, post review, search and sort products.",
+    "answer": "React, Redux, Node, Express, MongoDB, Material UI, AWS, Heroku, JWT",
+    "website": "foodzone-app.herokuapp.com/",
+    "github": "github.com/JiaziCai/Food-Zone"
+  },
+  {
     "name": "Fruit Chat",
     "tech": [
       "All",
@@ -51,17 +62,6 @@
     "info": "React Native app for selling furniture, includes user authentication and authorization, post listings, contact the seller, and more.",
     "answer": "React, React Native, Node, NPM, Expo",
     "github": "github.com/JiaziCai/letgo-furniture"
-  },
-  {
-    "name": "Shop Ramen",
-    "tech": ["All", "React", "Netlify", "UI/UX"],
-    "image":
-      "https://res.cloudinary.com/firebeat/image/upload/v1590296268/newssr_pbxxia.jpg",
-    "info": "Dynamic and responsive shopping website using GatsbyJS, with cart functionality for modifying and calculate items in the cart and Paypal API for checkout.",
-    "answer":
-      "React, Redux, Gatsby, Netlify, Bootstrap, Contentful, Styled-Component",
-    "website": "shop-ramen.netlify.app/",
-    "github": "github.com/JiaziCai/Shop-Ramen/"
   },
   {
     "name": "To Do List",
