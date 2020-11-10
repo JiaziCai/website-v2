@@ -19,6 +19,7 @@ const Head = ({
 }) => (
   <Helmet>
     <html lang="en" />
+    <link href="manifest.json" rel="manifest" />
 
     <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
     <meta
@@ -82,8 +83,6 @@ const Head = ({
       content="/icons/mstile-310x310.png"
       name="msapplication-square310x310"
     />
-
-    <link href="manifest.json" rel="manifest" />
 
     <link
       href="/icons/apple-touch-icon-57x57.png"
