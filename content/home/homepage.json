@@ -30,7 +30,7 @@
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1604968312/foodzone_mknyej.jpg",
     "info":
-      "E-commerce website with User auth, check out with paypal, add item to cart, admin upload and edit product, manage orders, post review, search and sort products.",
+      "E-commerce website with User auth, check out with PayPal, add items to cart, admin upload, edit product, manage orders, post review, search, and sort products.",
     "answer": "React, Redux, Node, Express, MongoDB, Material UI, AWS, Heroku, JWT",
     "website": "foodzone-app.herokuapp.com/",
     "github": "github.com/JiaziCai/Food-Zone"
