@@ -55,8 +55,17 @@
     "github": "github.com/JiaziCai/FruitChat "
   },
   {
+    "name": "Route Tracking",
+    "tech": ["All", "React Native", "Mobile", "Node"],
+    "image":
+      "https://res.cloudinary.com/firebeat/image/upload/v1606173940/rnt_xbtstd.jpg",
+    "info": "React Native app for real-time tracking user's route with expo-location library, fetch tracks records, and store tracks details.",
+    "answer": "React, React Native, Node, MongoDB, NPM, Expo, JWT",
+    "github": "github.com/JiaziCai/Track-React-Native"
+  },
+  {
     "name": "Letgo Furniture",
-    "tech": ["All", "React", "UI/UX", "Mobile", "Node"],
+    "tech": ["All", "React Native", "UI/UX", "Mobile", "Node"],
     "image":
       "https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg",
     "info": "React Native app for selling furniture, includes user authentication and authorization, post listings, contact the seller, and more.",

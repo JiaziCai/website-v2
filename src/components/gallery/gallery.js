@@ -9,12 +9,12 @@ const cardOptions = [
     name: 'React',
   },
   {
-    id: 193,
-    name: 'Node',
+    id: 202,
+    name: 'React Native',
   },
   {
-    id: 194,
-    name: 'REST API',
+    id: 193,
+    name: 'Node',
   },
   {
     id: 195,
