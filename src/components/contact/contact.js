@@ -4,7 +4,6 @@ import contactStyle from './contact.module.css';
 import IconGithub from '../icons/github';
 import IconLinkedin from '../icons/linkedin';
 import IconResume from '../icons/resume';
-import Pdf from '../document/Resume.pdf';
 
 const Contact = () => (
   <section id="contact" className={contactStyle.contact}>
@@ -55,7 +54,12 @@ const Contact = () => (
         </a>
       </li>
       <li>
-        <a href={Pdf} target="_blank" rel="noreferrer" title="resume">
+        <a
+          href="https://res.cloudinary.com/firebeat/image/upload/v1606193952/Jiazi_Cai_Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          title="resume"
+        >
           <IconResume />
         </a>
       </li>

@@ -9,7 +9,6 @@ import rootStyle from 'root.module.css';
 import IconGithub from '../icons/github';
 import IconLinkedin from '../icons/linkedin';
 import IconResume from '../icons/resume';
-import Pdf from '../document/Resume.pdf';
 
 const Layout = ({ data, children }) => (
   <div>
@@ -37,7 +36,12 @@ const Layout = ({ data, children }) => (
             </a>
           </li>
           <li style={{ marginTop: '1.25em', marginBottom: '1.25em' }}>
-            <a href={Pdf} target="_blank" rel="noreferrer" title="go to resume">
+            <a
+              href="https://res.cloudinary.com/firebeat/image/upload/v1606193952/Jiazi_Cai_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              title="go to resume"
+            >
               <IconResume />
             </a>
           </li>

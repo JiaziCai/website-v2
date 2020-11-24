@@ -17,10 +17,18 @@ const Index = ({ data }) => {
         <div
           style={{ fontWeight: '300', fontSize: '1.4em', marginBottom: '3rem' }}
         >
-          Hello!&nbsp;
-          <span role="img" aria-label="emoji" style={{ fontSize: '1.4em' }}>
-            🤹🏻
-          </span>
+          Hello!
+          <div
+            className="rotating"
+            style={{
+              width: '250px',
+              textAlign: 'center',
+            }}
+          >
+            <span role="img" aria-label="emoji" style={{ fontSize: '2.4em' }}>
+              🤹🏻
+            </span>
+          </div>
         </div>
         <Title as="h2" size="large">
           {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
