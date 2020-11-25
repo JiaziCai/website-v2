@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Item from 'components/gallery/item';
 import { Container } from './gallery.css';
@@ -28,6 +28,8 @@ const cardOptions = [
 
 const Gallery = ({ items }) => {
   const [skill, setSkill] = useState('React');
+
+  useEffect(() => {}, [skill]);
   return (
     <section id="work">
       <div className="headTitle">
@@ -74,7 +76,6 @@ const Gallery = ({ items }) => {
 
 Gallery.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
-  card: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Gallery;

@@ -11,7 +11,8 @@
       "Developed an E-learning platform for New York University with MERN stack. Worked with UI team to ship responsive and isomorphic website for multiple browsers, monitors. Also messed around with API design and UI.",
     "answer": "MongoDB, Express, React/Redux, Node, GraphQL, Figma",
     "website": "alive.xprss.org",
-    "github": ""
+    "github": "",
+    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606203817/alive_a6hxmw.mov"
   },
   {
     "name": "Spotify Data Viz",
@@ -22,7 +23,8 @@
       "A web app to visualize user's profile, playlists, followers, recently played songs. Also includes the frequently played song for within 4 weeks and 6 months. Songs include detailed sound information. Create and modify your playlists with recommended songs based on your playlists and more.",
     "answer": "React, Node, Express, REST API, Styled-Component, Mixins",
     "website": "spotify-datavis.herokuapp.com/",
-    "github": "github.com/JiaziCai/spotify-ui"
+    "github": "github.com/JiaziCai/spotify-ui",
+    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606245410/spotify_eu07js.mov"
   },
   {
     "name": "Food Zone",
@@ -33,7 +35,8 @@
       "E-commerce website with User auth, check out with PayPal, add items to cart, admin upload, edit product, manage orders, post review, search, and sort products.",
     "answer": "React, Redux, Node, Express, MongoDB, Material UI, AWS, Heroku, JWT",
     "website": "foodzone-app.herokuapp.com/",
-    "github": "github.com/JiaziCai/Food-Zone"
+    "github": "github.com/JiaziCai/Food-Zone",
+    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606245953/foodzone_agdvap.mov"
   },
   {
     "name": "Fruit Chat",
@@ -52,7 +55,8 @@
     "info": "Web app for cloning twitter's functionality such as post, comment, like, notification, deletion. Includes user authorization with JSON Web Token to manage login, register, and session. Responsive and minimal design for the chat app.",
     "answer": "React, Redux, NodeJS, Express, Material UI, Firebase, REST API, JWT",
     "website": "jiazicai.github.io/FruitChat/",
-    "github": "github.com/JiaziCai/FruitChat "
+    "github": "github.com/JiaziCai/FruitChat",
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606246438/Fruitchat_a8wkaj.mov"
   },
   {
     "name": "Route Tracking",
@@ -61,7 +65,8 @@
       "https://res.cloudinary.com/firebeat/image/upload/v1606173940/rnt_xbtstd.jpg",
     "info": "React Native app for real-time tracking user's route with expo-location library, fetch tracks records, and store tracks details.",
     "answer": "React, React Native, Node, MongoDB, NPM, Expo, JWT",
-    "github": "github.com/JiaziCai/Track-React-Native"
+    "github": "github.com/JiaziCai/Track-React-Native",
+    "video":""
   },
   {
     "name": "Letgo Furniture",
@@ -70,7 +75,8 @@
       "https://res.cloudinary.com/firebeat/image/upload/v1591814108/lf_bltqhw.jpg",
     "info": "React Native app for selling furniture, includes user authentication and authorization, post listings, contact the seller, and more.",
     "answer": "React, React Native, Node, NPM, Expo",
-    "github": "github.com/JiaziCai/letgo-furniture"
+    "github": "github.com/JiaziCai/letgo-furniture",
+    "video":""
   },
   {
     "name": "To Do List",
@@ -81,7 +87,8 @@
       "Add/delete task, categorize task, light/dark mode, accessibility, quick add task.",
     "answer": "React, Firebase, React Testing Library, SCSS",
     "website": "jiazicai.github.io/todolist/",
-    "github": "github.com/JiaziCai/todolist"
+    "github": "github.com/JiaziCai/todolist",
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606264541/todolist_p63kvz.mov"
   },
   {
     "name": "COVID Tracker",
@@ -91,7 +98,8 @@
     "info": "Used REST API to fetch data and Chart.js to display COVID-19 data.",
     "answer": "React, REST API, CSS Modules, Chart.js",
     "website": "jiazicai.github.io/covid-tracker",
-    "github": "github.com/JiaziCai/covid-tracker"
+    "github": "github.com/JiaziCai/covid-tracker",
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606269633/covid_foiibz.mov"
   },
   {
     "name": "Quiz Generator",
@@ -101,7 +109,8 @@
     "info": "Web app with REST API to generate quiz by category and number.",
     "answer": "React, REST API, CSS Grid",
     "website": "jiazicai.github.io/quiz-generator",
-    "github": "github.com/JiaziCai/quiz-generator"
+    "github": "github.com/JiaziCai/quiz-generator",
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606264736/quiz_adrpox.mov"
   }
 ]
 }

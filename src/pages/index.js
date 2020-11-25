@@ -85,6 +85,7 @@ export const query = graphql`
         tech
         website
         github
+        video
       }
     }
   }
