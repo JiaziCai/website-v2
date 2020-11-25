@@ -12,7 +12,7 @@
     "answer": "MongoDB, Express, React/Redux, Node, GraphQL, Figma",
     "website": "alive.xprss.org",
     "github": "",
-    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606203817/alive_a6hxmw.mov"
+    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606273680/alive3_vipefo.mov"
   },
   {
     "name": "Spotify Data Viz",
@@ -24,7 +24,7 @@
     "answer": "React, Node, Express, REST API, Styled-Component, Mixins",
     "website": "spotify-datavis.herokuapp.com/",
     "github": "github.com/JiaziCai/spotify-ui",
-    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606245410/spotify_eu07js.mov"
+    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606273569/spotify3_b0kivw.mov"
   },
   {
     "name": "Food Zone",
@@ -36,7 +36,7 @@
     "answer": "React, Redux, Node, Express, MongoDB, Material UI, AWS, Heroku, JWT",
     "website": "foodzone-app.herokuapp.com/",
     "github": "github.com/JiaziCai/Food-Zone",
-    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606245953/foodzone_agdvap.mov"
+    "video": "https://res.cloudinary.com/firebeat/video/upload/v1606273805/foodzone2_afyd64.mov"
   },
   {
     "name": "Fruit Chat",
@@ -56,7 +56,7 @@
     "answer": "React, Redux, NodeJS, Express, Material UI, Firebase, REST API, JWT",
     "website": "jiazicai.github.io/FruitChat/",
     "github": "github.com/JiaziCai/FruitChat",
-    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606246438/Fruitchat_a8wkaj.mov"
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606273856/Fruitchat2_stvatg.mov"
   },
   {
     "name": "Route Tracking",
@@ -88,7 +88,7 @@
     "answer": "React, Firebase, React Testing Library, SCSS",
     "website": "jiazicai.github.io/todolist/",
     "github": "github.com/JiaziCai/todolist",
-    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606264541/todolist_p63kvz.mov"
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606273896/todolist2_j9hz5k.mov"
   },
   {
     "name": "COVID Tracker",
@@ -99,7 +99,7 @@
     "answer": "React, REST API, CSS Modules, Chart.js",
     "website": "jiazicai.github.io/covid-tracker",
     "github": "github.com/JiaziCai/covid-tracker",
-    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606269633/covid_foiibz.mov"
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606273967/covid2_dnn3xb.mov"
   },
   {
     "name": "Quiz Generator",
@@ -110,7 +110,7 @@
     "answer": "React, REST API, CSS Grid",
     "website": "jiazicai.github.io/quiz-generator",
     "github": "github.com/JiaziCai/quiz-generator",
-    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606264736/quiz_adrpox.mov"
+    "video":"https://res.cloudinary.com/firebeat/video/upload/v1606273955/quiz2_klstlc.mov"
   }
 ]
 }
