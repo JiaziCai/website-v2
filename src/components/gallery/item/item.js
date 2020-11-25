@@ -5,6 +5,7 @@ import itemStyle from './itemStyle.module.css';
 import IconGithub from '../../icons/github';
 import IconWebsite from '../../icons/website';
 import HoverVideoPlayer from 'react-hover-video-player';
+import LazyLoad from 'react-lazy-load';
 
 const Item = ({ name, image, info, answer, website, github, video }) => {
   const wrapperLinkRef = useRef();
@@ -49,46 +50,48 @@ const Item = ({ name, image, info, answer, website, github, video }) => {
           </div>
         </Link>
       </div>
-      <div className={itemStyle.imageContainer}>
-        {video ? (
-          <HoverVideoPlayer
-            style={{ position: 'initial' }}
-            key={video}
-            videoSrc={video}
-            pausedOverlay={
+      <LazyLoad>
+        <div className={itemStyle.imageContainer}>
+          {video ? (
+            <HoverVideoPlayer
+              style={{ position: 'initial' }}
+              key={video}
+              videoSrc={video}
+              pausedOverlay={
+                <img
+                  src={image}
+                  height="100%"
+                  width="100%"
+                  style={{ borderRadius: '5px' }}
+                  alt={`${name}`}
+                />
+              }
+              loadingOverlay={<div className="loading-spinner-overlay" />}
+              hoverTargetRef={wrapperLinkRef}
+            />
+          ) : (
+            <>
               <img
                 src={image}
                 height="100%"
                 width="100%"
-                style={{ borderRadius: '5px' }}
                 alt={`${name}`}
+                style={{ borderRadius: '5px' }}
               />
-            }
-            loadingOverlay={<div className="loading-spinner-overlay" />}
-            hoverTargetRef={wrapperLinkRef}
-          />
-        ) : (
-          <>
-            <img
-              src={image}
-              height="100%"
-              width="100%"
-              alt={`${name}`}
-              style={{ borderRadius: '5px' }}
-            />
-            <div className={itemStyle.details}></div>
-          </>
-        )}
-        <a
-          href={website ? `https://${website}` : `https://${github}`}
-          title={`${name}`}
-          className={itemStyle.detailLink}
-        >
-          <div className={itemStyle.detailDiv}>
-            <button>{website ? 'Website' : 'Github'}</button>
-          </div>
-        </a>
-      </div>
+              <div className={itemStyle.details}></div>
+            </>
+          )}
+          <a
+            href={website ? `https://${website}` : `https://${github}`}
+            title={`${name}`}
+            className={itemStyle.detailLink}
+          >
+            <div className={itemStyle.detailDiv}>
+              <button>{website ? 'Website' : 'Github'}</button>
+            </div>
+          </a>
+        </div>
+      </LazyLoad>
     </div>
   );
 };

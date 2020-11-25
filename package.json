@@ -47,6 +47,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-hover-video-player": "^6.7.0",
+    "react-lazy-load": "^3.1.13",
     "react-pose": "^4.0.5",
     "styled-components": "^4.1.3"
   },
