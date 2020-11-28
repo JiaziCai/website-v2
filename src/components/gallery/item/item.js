@@ -46,7 +46,11 @@ const Item = ({ name, image, info, answer, website, github, video }) => {
         </div>
         <Link to={website ? `https://${website}` : `https://${github}`}>
           <div className={itemStyle.ProjectCardAction}>
-            Demo <span>→</span>
+            {video ? (
+              <>
+                Demo <span>→</span>
+              </>
+            ) : null}
           </div>
         </Link>
       </div>

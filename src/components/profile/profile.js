@@ -1,4 +1,15 @@
 import React from 'react';
+import LazyLoad from 'react-lazy-load';
+
+const skillArr = [
+  'JavaScript (ES6+)',
+  'HTML & CSS',
+  'React',
+  'React Native',
+  'TypeScript',
+  'GraphQL',
+  'Git',
+];
 
 const Profile = () => (
   <section id="about">
@@ -46,38 +57,24 @@ const Profile = () => (
         </p>
         <p>Here are a few technologies I&apos;ve been working on recently:</p>
         <ul className="techList">
-          <li>
-            <span>→</span> JavaScript (ES6+)
-          </li>
-          <li>
-            <span>→</span> HTML & CSS
-          </li>
-          <li>
-            <span>→</span> React
-          </li>
-          <li>
-            <span>→</span> Node.js
-          </li>
-          <li>
-            <span>→</span> React Native
-          </li>
-          <li>
-            <span>→</span> TypeScript
-          </li>
-          <li>
-            <span>→</span> GraphQL
-          </li>
-          <li>
-            <span>→</span> Git
-          </li>
+          {skillArr.map((skill, index) => {
+            return (
+              <li key={`${index}${skill}`}>
+                <span>→</span>
+                {skill}
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className="profileArea">
-        <img
-          src="https://res.cloudinary.com/firebeat/image/upload/v1594094304/jiazicai_i4sliw.jpg"
-          alt="jiazi"
-          className="profileImg"
-        />
+        <LazyLoad>
+          <img
+            src="https://res.cloudinary.com/firebeat/image/upload/v1594094304/jiazicai_i4sliw.jpg"
+            alt="jiazi"
+            className="profileImg"
+          />
+        </LazyLoad>
         <div className="profileImageContainer"></div>
       </div>
     </div>

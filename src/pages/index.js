@@ -15,7 +15,11 @@ const Index = ({ data }) => {
       <Box>
         <div style={{ height: '10vh' }}></div>
         <div
-          style={{ fontWeight: '300', fontSize: '1.4em', marginBottom: '3rem' }}
+          style={{
+            fontWeight: '300',
+            fontSize: '1.4em',
+            marginBottom: '3rem',
+          }}
         >
           Hello!
           <div
