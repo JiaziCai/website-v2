@@ -39,6 +39,7 @@ const Profile = () => (
             rel="noreferrer"
             className="textLink"
             title="New York University home page"
+            aria-label="New York University"
           >
             New York University
           </a>{' '}
@@ -49,6 +50,7 @@ const Profile = () => (
             rel="noreferrer"
             className="textLink"
             title="Alive website"
+            aria-label="Alive website"
           >
             ALIVE
           </a>{' '}

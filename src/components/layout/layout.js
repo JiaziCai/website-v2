@@ -21,6 +21,7 @@ const Layout = ({ data, children }) => (
               target="_blank"
               rel="noreferrer"
               title="go to github"
+              aria-label="github"
             >
               <IconGithub />
             </a>
@@ -31,6 +32,7 @@ const Layout = ({ data, children }) => (
               target="_blank"
               rel="noreferrer"
               title="go to linkedin"
+              aria-label="linkedin"
             >
               <IconLinkedin />
             </a>
@@ -41,6 +43,7 @@ const Layout = ({ data, children }) => (
               target="_blank"
               rel="noreferrer"
               title="go to resume"
+              aria-label="resume"
             >
               <IconResume />
             </a>

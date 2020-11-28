@@ -26,6 +26,7 @@ const Item = ({ name, image, info, answer, website, github, video }) => {
               href={`https://${website}`}
               target="_blank"
               rel="noreferrer"
+              aria-label="website"
               className={itemStyle.social}
               title={`Go to ${website}`}
             >
@@ -37,6 +38,7 @@ const Item = ({ name, image, info, answer, website, github, video }) => {
               href={`https://${github}`}
               target="_blank"
               rel="noreferrer"
+              aria-label="github"
               className={itemStyle.social}
               title={`go to ${github}`}
             >

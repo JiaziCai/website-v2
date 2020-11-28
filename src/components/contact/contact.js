@@ -26,6 +26,7 @@ const Contact = () => (
         target="_blank"
         rel="nofollow noopener noreferrer"
         title="email"
+        aria-label="email"
         className={contactStyle.email}
       >
         <span>Say Hello</span>
@@ -39,6 +40,7 @@ const Contact = () => (
           title="github"
           target="_blank"
           rel="noreferrer"
+          aria-label="github"
         >
           <IconGithub />
         </a>
@@ -49,6 +51,7 @@ const Contact = () => (
           target="_blank"
           rel="noreferrer"
           title="linkedin"
+          aria-label="linkedin"
         >
           <IconLinkedin />
         </a>
@@ -59,6 +62,7 @@ const Contact = () => (
           target="_blank"
           rel="noreferrer"
           title="resume"
+          aria-label="resume"
         >
           <IconResume />
         </a>

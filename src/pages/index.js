@@ -50,6 +50,7 @@ const Index = ({ data }) => {
             rel="nofollow noopener noreferrer"
             className="email"
             title="email to"
+            aria-label="email to"
           >
             <span>Say Hello</span>
           </a>
