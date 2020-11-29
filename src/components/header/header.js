@@ -55,7 +55,7 @@ export default class Header extends React.Component {
       <div className={this.state.visible ? 'navbar' : 'navbar--hidden'}>
         <AnimatedContainer>
           <Container>
-            <Link to="/">
+            <Link to="/" title="Website">
               <Logo>
                 <Jc />
               </Logo>
