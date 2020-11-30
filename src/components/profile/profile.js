@@ -9,6 +9,8 @@ const skillArr = [
   'TypeScript',
   'GraphQL',
   'Git',
+  'Docker',
+  'Kubernetes',
 ];
 
 const Profile = () => (
