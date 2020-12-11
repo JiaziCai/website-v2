@@ -1,1 +1,1 @@
-![website - v2](/templates/bew - lighthouse.png);
+![website-v2](/templates/web-lighthouse.png);
