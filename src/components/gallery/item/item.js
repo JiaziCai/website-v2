@@ -87,15 +87,15 @@ const Item = ({ name, image, info, answer, website, github, video }) => {
               <div className={itemStyle.details}></div>
             </>
           )}
-          <a
-            href={website ? `https://${website}` : `https://${github}`}
-            title={`${name}`}
-            className={itemStyle.detailLink}
-          >
-            <div className={itemStyle.detailDiv}>
+          <div className={itemStyle.detailDiv}>
+            <a
+              href={website ? `https://${website}` : `https://${github}`}
+              title={`${name}`}
+              className={itemStyle.detailLink}
+            >
               <button>{website ? 'Website' : 'Github'}</button>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </LazyLoad>
     </div>
