@@ -39,7 +39,7 @@ const Layout = ({ data, children }) => (
           </li>
           <li style={{ marginTop: '1.25em', marginBottom: '1.25em' }}>
             <a
-              href="https://res.cloudinary.com/firebeat/image/upload/v1606193952/Jiazi_Cai_Resume.pdf"
+              href="https://res.cloudinary.com/firebeat/image/upload/v1609709125/Jiazi_Cai_Resume_cq1lrz.pdf"
               target="_blank"
               rel="noreferrer"
               title="go to resume"
