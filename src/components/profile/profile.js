@@ -56,8 +56,19 @@ const Profile = () => (
           >
             ALIVE
           </a>{' '}
-          as a Front End Engineer. I learn new skills and contribute to side
-          projects daily.
+          as a Front End Engineer. Currently I am working at{' '}
+          <a
+            href="https://crowdhealth.org/"
+            target="_blank"
+            rel="noreferrer"
+            className="textLink"
+            title="CrowdHealth website"
+            aria-label="CrowdHealth website"
+          >
+            CrowdHealth
+          </a>{' '}
+          in building a health management platform. I learn new skills and
+          contribute to side projects daily.
         </p>
         <p>Here are a few technologies I&apos;ve been working on recently:</p>
         <ul className="techList">
