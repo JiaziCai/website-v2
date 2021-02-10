@@ -58,14 +58,14 @@ const Profile = () => (
           </a>{' '}
           as a Front End Engineer. Currently I am working at{' '}
           <a
-            href="https://crowdhealth.org/"
+            href="https://crowdsynctechnology.com/"
             target="_blank"
             rel="noreferrer"
             className="textLink"
-            title="CrowdHealth website"
-            aria-label="CrowdHealth website"
+            title="CrowdSync website"
+            aria-label="CrowdSync website"
           >
-            CrowdHealth
+            CrowdSync Technology
           </a>{' '}
           in building a health management platform. I learn new skills and
           contribute to side projects daily.
