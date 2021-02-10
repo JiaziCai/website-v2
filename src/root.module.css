@@ -152,7 +152,7 @@
     }
   }
 
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 450px) {
     .rootDiv {
         padding-left: 0em;
         padding-right: 0em;
